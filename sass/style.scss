@@ -1,0 +1,32 @@
+// -> Bootstrap base updated styles
+    // styles for print
+    /* styles for @media print */
+    @import "../vendor/bootstrap/print";
+
+    /* basic bootstrap reset */
+    // basic bootstrap reset
+    @import "../vendor/bootstrap/bootstrap_reset";    
+
+    // Disabling the responsiveness to 980px ( comment if want to adaptive )
+    @import "../vendor/bootstrap/non-responsive";
+
+//avg core sass
+@import "core";
+
+//base
+@import "base/browsehappy";
+@import "base/reset";
+
+// -> Project parts styles
+/* Project styles */
+//@import "project/___";
+@import "project/01_header";
+//@import "project/___";
+//@import "project/___";
+//@import "project/___";
+//@import "project/___";
+//@import "project/___";
+//@import "project/___";
+//@import "project/___";
+@import "project/99_footer";
+
