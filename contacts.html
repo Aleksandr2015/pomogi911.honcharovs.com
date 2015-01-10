@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="author" content="Aleksandr Hocharov - wd.honcharovs.com">
+    <title>Сайт помощи Кате Петровой</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="">
+    <!-- Bootstrap CDN - Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <!-- Project styles -->
+    <link rel="stylesheet" href="css/style.css">      
+    <!-- if IE CDN --> 
+    <!--[if IE]>
+        <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->    
+</head>
+<body> 
+    
+    <!--[if lt IE 9]>
+    <p class="browsehappy">Вы используете <strong>устаревшую</strong> версию браузера, поэтому страница может работать некорректно. Обновить браузер можно <a href="http://browsehappy.com/">по этой ссылке</a> или перейти на сайт http://browsehappy.com</p>
+    <![endif]-->
+
+    <!-- header / start -->
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-4">
+                    <a href="/"><img src="img/sitename.jpg" alt="Сайт помощи Кате Петровой"></a>
+                </div>
+                <div class="col-xs-8">
+                    <nav>
+                    	<ul>
+                    		<li><a href="/">О Катеньке</a></li>
+                    		<li><a href="/photos.html">Фотографии</a></li>
+                    		<li><a href="/details.html">Реквизиты для помощи</a></li>
+                    		<li><a href="/contacts.html">Контакты</a></li>
+                    		<div class="clearfix"></div>
+                    	</ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--  header / end -->
+    
+    <!-- ---------------------------------------------------- main content / start -->
+    
+    <!-- contacts / start -->
+    <section class="contacts">
+        <div class="container">
+            <div class="row">
+               <div class="col-xs-12 text-center">
+                   <p><b>Телефоны:</b></p>
+                <p><b>+38 (063) 726 14 18</b> - Дмитрий Викторович Петров (папа)</p>
+                <p><b>+38 (063) 358 06 20</b> - Екатерина Васильевна Минакова (волонтер)</p>
+
+                <div class="contacts_map">
+                    <script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=wCPY_TNIPSdCsEvCDdocU6rOCUlo42fb&width=100%&height=450"></script>
+                </div>
+
+                <p><b>Гематологическое отделение КУ "Днепропетровская областная детская клиническая больница"</b></p>
+                <p style="color:red"><b>ВАЖНО!!!</b> Для посещения при себе иметь <b>бахилы</b>, <b>медицинскую маску</b> и <b>халат !</b></p>
+                <p>Адрес: <b>Украина 49100, г. Днепропетровск, ул. Космическая 13</b></p>
+                <p>Телефон отделения: <b>+38 (056) 713-71-46, факс: +38 (056) 713 71 00</b></p>
+                <p>Лечащий врач <b>Посмитюха Ирина Викторовна - Заведующая отделением</b></p>
+            
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contacts / end -->    
+    
+    <!-- ---------------------------------------------------- main content / end -->
+    
+    <!-- footer / start -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <p>Ссылка на группу помощи вКонтакте <a href="https://vk.com/pomogi911" target="_blank">https://vk.com/pomogi911</a></p>
+                    <p>Тема на форуме на сайте gorod.dp.ua <a href="http://forum.gorod.dp.ua/showthread.php?t=368345" target="_blank">http://forum.gorod.dp.ua/showthread.php?t=368345</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer / end -->
+    
+    <!-- jQuery CDN - Latest jQuery version -->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <!-- Bootstrap CDN - Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <!-- add to nav li a class active -->
+    <script>
+        $(function() {
+            $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+        });
+    </script>
+</body>
+</html>

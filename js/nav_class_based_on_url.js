@@ -11,7 +11,9 @@
 //	</ul>
 //</nav>
 
-// Script        
-//$(function() {
-//  $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
-//});
+//- - SCRIPT- - (add to html) - -
+//<script>
+//  $(function() {
+//      $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+//  });
+//</script>

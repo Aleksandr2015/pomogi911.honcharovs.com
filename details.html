@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="author" content="Aleksandr Hocharov - wd.honcharovs.com">
+    <title>Сайт помощи Кате Петровой</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="">
+    <!-- Bootstrap CDN - Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <!-- Project styles -->
+    <link rel="stylesheet" href="css/style.css">      
+    <!-- if IE CDN --> 
+    <!--[if IE]>
+        <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->    
+</head>
+<body> 
+    
+    <!--[if lt IE 9]>
+    <p class="browsehappy">Вы используете <strong>устаревшую</strong> версию браузера, поэтому страница может работать некорректно. Обновить браузер можно <a href="http://browsehappy.com/">по этой ссылке</a> или перейти на сайт http://browsehappy.com</p>
+    <![endif]-->
+
+    <!-- header / start -->
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-4">
+                    <a href="/"><img src="img/sitename.jpg" alt="Сайт помощи Кате Петровой"></a>
+                </div>
+                <div class="col-xs-8">
+                    <nav>
+                    	<ul>
+                    		<li><a href="/">О Катеньке</a></li>
+                    		<li><a href="/photos.html">Фотографии</a></li>
+                    		<li><a href="/details.html">Реквизиты для помощи</a></li>
+                    		<li><a href="/contacts.html">Контакты</a></li>
+                    		<div class="clearfix"></div>
+                    	</ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--  header / end -->
+    
+    <!-- ---------------------------------------------------- main content / start -->
+    
+    <!-- details / start -->
+    <section class="details">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <h2 style="font-size:20px;margin:20px auto;">
+                        <b>КТО ЖЕЛАЕТ ОКАЗАТЬ ФИНАНСОВУЮ ПОДДЕРЖКУ СЕМЬЕ ПЕТРОВЫХ:</b>
+                    </h2>
+                </div>        
+                <div class="col-xs-4">
+                    <img src="img/photos/13.png" alt="" class="img-responsive">
+                </div>
+                <div class="col-xs-8">
+                    <div class="row" style="padding:10px;border:1px solid #ccc;margin:0 0 20px 0;">
+                        <div class="col-xs-3"><img src="img/pb.jpg" alt=""></div>
+                        <div class="col-xs-9">
+                            <p>Карта ПриватБанка: <b>5168 7572 9241 6957</b></p>
+                            <p>Получатель: <b>Петров Дмитрий Викторович (папа Кати)</b></p>
+                        </div>
+                    </div>
+                    <div class="row" style="padding:10px;border:1px solid #ccc;margin:20px 0;">
+                        <div class="col-xs-3"><img src="img/pb.jpg" alt=""></div>
+                        <div class="col-xs-9">
+                            <p>Счет в банке: </p>
+                            <p><b>ОКПО: 14360570, МФО: 305299, р/р: 29244825509100</b></p>
+                        </div>
+                    </div>
+                    <div class="row" style="padding:10px;border:1px solid #ccc;margin:20px 0;">
+                        <div class="col-xs-3"><img src="img/yd.jpg" alt=""></div>
+                        <div class="col-xs-9">
+                            <p style="line-height:53px;">Кошелек Яндекс Деньги:  <b>410011578722405</b></p>                            
+                        </div>
+                    </div>
+                    <div class="row" style="padding:10px;border:1px solid #ccc;margin:20px 0;">
+                        <div class="col-xs-3"><img src="img/q.jpg" alt=""></div>
+                        <div class="col-xs-9">
+                            <p style="line-height:53px;">КИВИ:  <b>+38093 959 21 73</b></p>                            
+                        </div>
+                    </div>                    
+                </div>                                                               
+                <div class="col-xs-12 text-center" style="margin-top:20px;">                           
+                            <p style="font-size:19px;">
+                                Телефон папы:<br>
+                                <b>+38 (063) 726 14 18<br> Петров Дмитрий Викторович</b>                        
+                            </p>
+                        </div>
+            </div>
+        </div>
+    </section>
+    <!-- details / end -->    
+    
+    <!-- ---------------------------------------------------- main content / end -->
+    
+    <!-- footer / start -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <p>Ссылка на группу помощи вКонтакте <a href="https://vk.com/pomogi911" target="_blank">https://vk.com/pomogi911</a></p>
+                    <p>Тема на форуме на сайте gorod.dp.ua <a href="http://forum.gorod.dp.ua/showthread.php?t=368345" target="_blank">http://forum.gorod.dp.ua/showthread.php?t=368345</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer / end -->
+    
+    <!-- jQuery CDN - Latest jQuery version -->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <!-- Bootstrap CDN - Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <!-- add to nav li a class active -->
+    <script>
+        $(function() {
+            $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+        });
+    </script>
+</body>
+</html>
