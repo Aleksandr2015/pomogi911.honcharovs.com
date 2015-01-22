@@ -160,6 +160,28 @@ html, body {
 }
 
 /* Project styles */
+/*
+* lang
+*/
+.lang {
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  left: 865px;
+  border: 1px dotted #ccc;
+  padding: 5px;
+  border-radius: 5px;
+}
+.lang_title {
+  display: inline-block;
+  margin-right: 10px;
+}
+.lang a {
+  padding-right: 10px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 /* nav */
 .active {
   font-weight: 800;
@@ -196,6 +218,7 @@ nav li a:hover, nav li a:active, nav li a:focus {
 */
 .header {
   margin-top: 20px;
+  position: relative;
 }
 
 /*
