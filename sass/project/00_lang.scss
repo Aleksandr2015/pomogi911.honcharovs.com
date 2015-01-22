@@ -1,0 +1,22 @@
+/*
+* .lang
+*/
+
+.lang {
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  left: 865px;
+  border: 1px dotted #ccc;
+  padding: 5px;
+  border-radius: 5px;
+  &_title {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  & a {
+    padding-right: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
