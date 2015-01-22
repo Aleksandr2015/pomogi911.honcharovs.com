@@ -161,7 +161,7 @@ html, body {
 
 /* Project styles */
 /*
-* lang
+* .lang
 */
 .lang {
   z-index: 999;
@@ -289,6 +289,31 @@ nav li a:hover, nav li a:active, nav li a:focus {
 */
 .footer {
   margin: 25px 0;
+}
+
+.socials {
+  text-align: center;
+  border-top: 1px solid #000;
+  padding-top: 10px;
+}
+
+.vk {
+  font-size: 0;
+  display: inline-block;
+  width: 120px;
+  height: 28px;
+  background-image: url(../img/vkontakte.jpg);
+  background-repeat: no-repeat;
+}
+
+.fb {
+  font-size: 0;
+  display: inline-block;
+  width: 120px;
+  height: 28px;
+  background-image: url(../img/facebook.jpg);
+  background-repeat: no-repeat;
+  margin-left: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
